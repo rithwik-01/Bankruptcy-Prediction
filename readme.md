@@ -158,7 +158,3 @@ Based on the model outputs and evaluation metrics, several key insights emerged:
 - **Calibrated XGBoost is the Best Performer:** Calibrated XGBoost, using Isotonic Regression for probability calibration, achieved the best results in terms of both accuracy and minority class recall/F1-score, making it the most suitable for real-world financial risk assessment where identifying bankruptcies is critical.
 
 - **Interpretability and Further Tuning Needed:** While the best model performs well, further work is needed to improve interpretability (using SHAP/LIME) and to boost recall for the minority class, possibly through advanced sampling or ensemble techniques.
-
----
-
-Feel free to reach out or contribute to this project for further improvements!
